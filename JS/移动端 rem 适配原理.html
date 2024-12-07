@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>移动端 rem 适配原理</title>
+    <style>
+        /*html{
+            font-size: 20px;
+        }*/
+        .box1{
+            width: 300px;
+            height: 100px;
+            background-color: blueviolet;
+            margin-bottom: 50px;
+        }
+        .box2{
+            width: 5rem;
+            height: 3rem;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <script>
+        function resetHtmFantSize() {
+            document.documentElement.style.fontSize = screen.width / 10 + 'px';
+        }
+        resetHtmFantSize();
+        window.onresize = resetHtmFantSize;
+    </script>
+</body>
+</html>

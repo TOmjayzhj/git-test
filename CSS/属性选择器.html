@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         a[class ="one" ]{
+            background-color: rgb(14, 193, 38);
+        }
+        a[class *="one" ]{
+            background-color: yellow;
+        }
+        a[class $= "1"]{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <p class="demo">
+        <a href="" calss="one" id="first" >1</a>
+        <a href="" class="one">2</a>
+        <a href="" class="one1">3</a>
+    </p>
+</body>
+</html>

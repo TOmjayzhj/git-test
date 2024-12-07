@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>提交表单</title>
+</head>
+<body>
+    <form action="post">
+        <p>
+            <span>用户名：</span><input type="text" id="username">
+        </p>
+
+        <p>
+            <span>密码：</span><input type="password" id="password">
+        </p>
+
+        <p>
+            <span>性别：</span><input type="radio" name="sex" value="male" id = "man" >man
+                              <input type="radio" name="sex" value="fmale" id = "woman">woman
+        </p>
+
+        <button type="button" onclick="aaa()">提交</button>
+    </form>
+    
+    <script>
+        function aaa(){
+            var username = document.getElementById('username')
+            var password = document.getElementById('password')
+            password.value = '123456'
+            return true
+        }
+    </script>
+</body>
+</html>

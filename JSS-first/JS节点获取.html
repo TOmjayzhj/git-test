@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS节点获取</title>
+</head>
+<body>
+    <dl id = "father">
+        <dt>Jave</dt>
+        <dd id = "idd">JavaSE</dd>
+        <dd>JaveEE</dd>
+    </dl>
+
+    <script>
+        //var aaa = document.getElementById('app')
+        //var child = father.children
+        //father.firstchild
+        //father.lastchild
+        var child = document.getElementById('idd')
+        var father = idd.parentElement
+        father.removeChild(child)
+        //father.removeChild(father.children[0])动态操作
+    </script>
+</body>
+</html>

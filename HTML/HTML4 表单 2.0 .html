@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单 2.0</title>
+</head>
+<body>
+    <h1>Login</h1> 
+    <form action="HIML 区块.html" method="get">
+      <p>name  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="username" value="ikun" maxlength="10" size="25" readonly>
+      </p>
+      <p>password :
+        <input type="password" name="pwd">
+      </p>
+      <p>sex:
+        <input type="radio" name="sex" checked disabled>boy
+        <input type="radio" name="sex">girl
+      </p>
+      <p>hobby:
+        <input type="checkbox" name="hobby">sing
+        <input type="checkbox" name="hobby">jump
+        <input type="checkbox" name="hobby">rap
+        <input type="checkbox" name="hobby" checked>basketball
+      </p>
+      <p>
+        <input type="button"  name="btnl"  value="click it to be more long">
+        <input type="image" src="心之钢.jpg" width="300px">
+      </p>
+      <p>country:
+        <select name="list's name">
+            <option value="China">China</option>
+            <option value="Us">Us</option>
+            <option value="Greamer" selected>Greamer</option>
+            <option value="Inita">Inita</option>
+        </select>
+      </p>
+
+      <p>faceback:
+        <textarea name="textarea" cols="50" rows="10">content</textarea>
+      </p>
+
+      <p>
+        <input type="file" name="files" value="chioce your files">
+        <input type="button" value="upload" name="upload">
+      </p>
+
+      <p>num:
+        <input type="number" maxlength="100" minlength="0" step="1" value="10">
+      </p>
+
+      <p>rang:
+        <input type="range" name="range" max="100" min="0" step="1" value="50">
+      </p>
+
+      <p>search:
+        <input type="search">
+      </p>
+
+      <p>自定义：
+        <input type="text" pattern="^.{4}$" checked value="ikun">
+      </p>
+
+      <p>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+      </p>
+    </form>
+    
+</body>
+</html>

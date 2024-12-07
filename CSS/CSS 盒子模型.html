@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 盒子模型</title>
+
+    <style>
+        .border-demo{
+            background-color: blueviolet;
+            width: 300px;
+            height: 200px;
+            border-style: solid dashed dotted double;
+            border-width: 15px 0 40px 50px;/*上右下左*/
+            border-color: rgb(229, 235, 67);
+            border-left:10px solid red
+        }
+        .demo{
+            display: inline-block;
+            border-radius: 10px;
+            background-color:rgb(77, 241, 200) ;
+            border: 5px solid yellowgreen;
+/*内边框*/   padding: 50px;
+/*外边框*/   margin:40px
+        }
+    </style>
+</head>
+<body>
+    <div class="demo">Holy shit</div>
+    <div class="border-demo">这是一个边框示例</div>
+</body>
+</html>

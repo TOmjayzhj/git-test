@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><z-index></z-index></title>
+
+    <style>
+        #box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            line-height: 25px;
+            background-color: antiquewhite;
+            font-size: 18px;
+        }
+        li{
+            list-style: none;
+            text-indent: 1em;
+        }
+        img{
+            width: 200px;
+        }
+       .blank,.tiptext{
+            position: relative;
+            bottom: 35px;
+            width: 200px;
+            height: 15px;
+           background-color: rgb(13, 2, 2);
+        }
+        .tiptext{
+            z-index: 99;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <img src="/心之钢.jpg" alt="">
+        <li class="tiptext">心之钢</li>
+        <li class="blank"></li>
+        <li>yo man</li>
+        <li>兄弟你好香</li>
+    </div>
+    
+</body>
+</html>

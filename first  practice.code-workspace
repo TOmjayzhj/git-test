@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../../Desktop/first  practice"
+		}
+	],
+	"settings": {
+		"liveServer.settings.CustomBrowser": "microsoft-edge"
+	},
+	"extensions": {
+		"recommendations": [
+			"ritwickdey.liveserver"
+		]
+	}
+}
